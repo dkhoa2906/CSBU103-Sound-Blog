@@ -1,9 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+html{
+  overflow-x: hidden;
+}
 body {
   font-family: 'Be Vietnam Pro', sans-serif;
   line-height: 1.6;
-  background-color: #383838;
+  background-color: #57595D ;
+}
+header {
+  background-color : #090F1A ;
 }
 header nav ul li a {
   text-decoration: none;
@@ -17,18 +22,10 @@ header nav ul li a {
 header nav ul li a:hover {
   color: #555;
 }
-.main .left article p {
-  color: #555;
-}
-
-header{
-  background-color: #181818 ;
-}
-
 header nav ul a:after{
   content : "" ;
   position : absolute ; 
-  background-color : #ff3c78 ; 
+  background-color : #008B8B ; 
   height : 3px ; 
   width : 0 ;
   left : 0 ; 
@@ -38,77 +35,252 @@ header nav ul a:after{
 header nav ul a:hover:after{
   width : 100% ; 
 }
-.color-change span{
-  color : #ff3c78 ;
-}
-.slide-holder {
-  position : relative ; 
-  max-width : 100rem;
-  margin : 0 auto ;  
-}
-.slider {
-  display : flex ; 
-  aspect-ratio : 16/9 ; 
-  overflow-x : auto ;
-  scroll-snap-type : x mandatory ;
-  scroll-behavior : smooth ; 
-  border-radius : 0.9rem ;
-}
-.slider img {
-  flex : 1 0 100% ;
-  scroll-snap-align : start ;
-  object-fit : cover ;
-}
-.slider-nav{
-  display : flex ; 
-  column-gap : 1rem ;
-  position : absolute ;
-  left : 50% ; 
-  transform : translateX(-50%) ; 
-  z-index : 1 ;
-  top : 53% ; 
-}
-.slider nav a {
-  width : 1rem ;
-  height : 6rem ;
-  border-radius : 50% ; 
-  background-color : #ff1 ; 
-  opacity : 0.75 ;
-  transition : opacity ease 250ms ;
-}
-.slider-nav a:hover {
-  opacity : 1 ;
-}
-.left article p a  { 
-  font-size: 1.25vw;
-  margin-left : 50px ; 
-
-}
 body header h1 {
-  margin-left : 60px ;
+  margin-left : 70px ;
   color : white ;
 }
-.text{
-  gap: 25%;
-  margin : 70px 70px 0 10px ;  
-  display : flex ;  
-  justify-content : space-between ;
+
+.photo-1 img {
+ position : relative ; 
+ top : 60px ; 
+ left : 150px ;
+}
+.titile-1{
+  font-size : 1.4vw ;
+  margin : 0 0 0 475px ;
+  position : relative ; 
+  bottom : 110px ;
+}
+.para-1 {
+  position : relative ;
+  left : 470px ;
+  bottom : 100px ;
+}
+.button-1 {
+ position : relative ; 
+ left : 470px ;
+ bottom : 80px ;
+}
+.photo-2 img {
+ position : relative ; 
+ top : 40px ; 
+ left : 150px ;
+}
+.titile-2{
+  font-size : 1.4vw ;
+  position : relative ; 
+  bottom : 130px ; 
+  left : 470px ;
+}
+.para-2{
+  position : relative ;
+  left : 470px ;
+  bottom : 115px ;
+}
+.button-2 {
+  position : relative ; 
+ left : 470px ;
+ bottom : 95px ;
+  
+}
+.photo-3 img {
+  position : relative ; 
+  top : 13px ; 
+  left : 150px ;
+}
+.titile-3{
+  font-size : 1.4vw ;
+  position : relative ; 
+  bottom : 160px ; 
+  left : 470px ;
+}
+.para-3 {
+  position : relative ;
+  left : 470px ;
+  bottom : 145px ;
+}
+.button-3 {
+ position : relative ; 
+ left : 470px ;
+ bottom : 125px ;
+}
+.photo-4 img {
+  position : relative ; 
+  bottom : 10px ; 
+  left : 150px ;
+}
+.titile-4{
+  font-size : 1.4vw ;
+  position : relative ; 
+  bottom : 185px ; 
+  left : 470px ;
+}
+.para-4 {
+  position : relative ;
+  left : 470px ;
+  bottom : 170px ;
+}
+.button-4 {
+  position : relative ; 
+  left : 470px ;
+  bottom : 145px ;
+}
+.photo-5 img {
+  position : relative ; 
+  bottom : 25px ; 
+  left : 140px ;
+ }
+.titile-5{
+  font-size : 1.4vw ;
+  position : relative ; 
+  bottom : 205px ; 
+  left : 470px ;
+}
+.para-5 {
+  position : relative ;
+  left : 470px ;
+  bottom : 185px ;
+}
+.button-5 {
+  position : relative ; 
+  left : 470px ;
+  bottom : 165px ;
+}
+.button-1 button {
+  border : none ; 
+  background-color  : #008B8B ; 
+  font-size : 15px ;
+  padding : 8px ;
+  cursor : pointer ;
+  color : white ; 
+  border-radius : 15px ; 
+}
+.button-2 button {
+  border : none ;
+  background-color : #008B8B ; 
+  padding : 9px ;
+  color : white ; 
+  font-size : 15px ; 
+  cursor : pointer ;
+  border-radius : 15px ; 
+}
+.button-3 button {
+  border : none ;
+  background-color : #008B8B ; 
+  padding : 9px ;
+  color : white ; 
+  font-size : 15px ; 
+  cursor : pointer ;
+  border-radius : 15px ; 
+}
+.button-4 button {
+  border : none ;
+  background-color : #008B8B ; 
+  padding : 9px ;
+  color : white ; 
+  font-size : 15px ; 
+  cursor : pointer ;
+  border-radius : 15px ; 
+}
+.button-5 button {
+  border : none ;
+  background-color : #008B8B ; 
+  padding : 9px ;
+  color : white ; 
+  font-size : 15px ; 
+  cursor : pointer ;
+  border-radius : 15px ; 
+}
+.button-1 button:hover,.button-2 button:hover,.button-3 button:hover,.button-4 button:hover,.button-5 button:hover{
+  color : black  ;
+}
+h3 {
+  position : relative ; 
+  top : -50px ;
+  font-size : 1.5vw ; 
+  color : black  ;
+}
+.bottom aside  {
+  background-color : white ;
+  padding : 100px ;
+  width : 32% ; 
+  position : relative ; 
+  top : -1620px ;
+  left : 1030px ;
+}
+.bottom h2{
+   position :relative ; 
+   right : 10px;
+}
+h2{
+  position : relative ;
+  top : -75px ;
+  left : 85px ;
+  font-size :1.7vw ; 
+}
+.intro article {
+  background-color : #57595D ; 
+  padding : 200px ;
+}
+.intro article h1 {
+  font-size : 3.15vw;
+  position : relative ; 
+  bottom : 80px ;
+  left : 60px  ;
+}
+.intro p {
+  position : relative ; 
+  bottom : 65px ;
+  left : 62px ; 
+}
+.intro button {
+  border : none ; 
+  cursor : pointer ;
+  background-color : #090F1A ; 
+  padding : 30px ;
+  position : relative ; 
+  bottom : 35px ;   
+  left : 62px ; 
+  color : white; 
+}
+ .intro button:hover { 
+  color : white ;
+ }
+.name{
+  font-size : 3vw ;  
+  text-align: center;
+  margin-top : 30px ;
+}
+.group-1{
+  position : relative ; 
+  top : 300px ;
+}
+.group-2{
+  position : relative ; 
+  top : 200px ;
+}
+.group-3{
+  position : relative ; 
+  top : 200px ;
+}
+.group-4{
+  position : relative ; 
+  top : 200px ;
+}
+.group-5{
+  position : relative ; 
+  top : 200px ;
+}
+.main {
+  background-color : #090F1A ;
+  position : relative ; 
+  top : 200px ;
+  padding : 200px ; 
+}
+ h2 {
+  position : relative ; 
+  display : grid ;
+  bottom : 90px ; 
 }
 
-.paragraph {
-  margin-top: 700px ;
-}
-.left article h2{
-  text-align : center ;
-  font-size : 2vw ;
-  border : 2px solid black ; 
-}
-.left h3 h4 h5 h6 {
-display : inline-block ; 
-position : relative ; 
-padding :20px 25px ;
 
- 
-}
-
- 
